@@ -16,12 +16,41 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+.calculator-div {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 150px;
+}
+
+.input {
+  height: 30px;
+  background-color: #858694;
+}
+
+.button-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button {
+  width: 25%;
+  height: 50px;
+  background-color: #e0e0e0;
+  border: 2px solid #d1d1d1;
+}
+
+.orange {
+  width: 25%;
+  height: 50px;
+  background-color: #f5913e;
+  border: 2px solid #d1d1d1;
+  font-size: 1rem;
+}
+
+.button-o {
+  width: 50%;
+  border: 2px solid #d1d1d1;
+  background-color: #e0e0e0;
 }
