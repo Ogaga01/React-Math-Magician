@@ -22,7 +22,6 @@ class CalculatorButtons extends React.Component {
   render() {
     return (
       <div className="button-div">
-        <input className="input" />
         <button onClick={this.handleClick('AC')} className="button" type="button">AC</button>
         <button onClick={this.handleClick('+/-')} className="button" type="button">+/-</button>
         <button onClick={this.handleClick('%')} className="button" type="button">%</button>

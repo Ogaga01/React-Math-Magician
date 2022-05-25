@@ -1,4 +1,5 @@
 import React from 'react';
+import InputBox from './inputbox';
 import CalculatorButtons from './calculatorbuttons';
 
 class Calculator extends React.Component {
@@ -10,6 +11,7 @@ class Calculator extends React.Component {
   render() {
     return (
       <div className="calculator-div">
+        <InputBox />
         <CalculatorButtons />
       </div>
     );
