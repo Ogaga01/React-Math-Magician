@@ -1,11 +1,11 @@
-import React from 'react';
+import { React, Component } from 'react';
 import './App.css';
 import Calculator from './components/Calculator';
 
-class App extends React.Component() {
+class App extends Component {
   constructor(props) {
     super(props);
-    this.sttate = {};
+    this.state = {};
   }
 
   render() {
