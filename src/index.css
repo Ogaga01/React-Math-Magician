@@ -59,3 +59,29 @@ body {
   border: 2px solid #d1d1d1;
   background-color: #e0e0e0;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-one {
+  margin-left: 2%;
+}
+
+nav {
+  margin-right: 3%;
+}
+
+.navlink {
+  padding: 0 15px;
+  font-size: 1.5rem;
+  border-right: 2px solid black;
+}
+
+.navlinks {
+  padding: 0 15px;
+  font-size: 1.5rem;
+  border-right: none;
+}
