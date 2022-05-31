@@ -1,5 +1,6 @@
 import { React, Component } from 'react';
 import './App.css';
+import { Routes, Route } from 'react-router-dom';
 import Calculator from './components/Calculator';
 
 class App extends Component {
@@ -10,7 +11,9 @@ class App extends Component {
 
   render() {
     return (
-      <Calculator />
+      <Routes>
+        <Route path="/Calculator" element={<Calculator />} />
+      </Routes>
     );
   }
 }
