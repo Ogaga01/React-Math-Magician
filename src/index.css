@@ -19,9 +19,9 @@ body {
 .calculator-div {
   display: flex;
   flex-direction: column;
-  width: 30%;
-  margin-left: 35%;
-  margin-top: 150px;
+  width: 60%;
+  margin-left: 22%;
+  margin-top: 100px;
 }
 
 .input {
@@ -58,4 +58,63 @@ body {
   width: 50%;
   border: 2px solid #d1d1d1;
   background-color: #e0e0e0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-one {
+  margin-left: 2%;
+}
+
+nav {
+  margin-right: 3%;
+}
+
+.navlink {
+  padding: 0 15px;
+  font-size: 1.5rem;
+  border-right: 2px solid black;
+}
+
+.navlinks {
+  padding: 0 15px;
+  font-size: 1.5rem;
+  border-right: none;
+}
+
+.calc {
+  display: flex;
+}
+
+.calc-para {
+  font-size: 2rem;
+  width: 30%;
+  margin-left: 5%;
+}
+
+.calc-div {
+  border: 3px solid black;
+  height: 70vh;
+  width: 50%;
+  margin-top: 30px;
+  margin-left: 10%;
+}
+
+.quotes-para {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 200px;
+}
+
+.header-two,
+.home-para {
+  margin-left: 3%;
+}
+
+.home-para {
+  margin-right: 3%;
 }
