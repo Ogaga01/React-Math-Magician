@@ -4,8 +4,8 @@ function Home() {
   return (
     <>
       <div>
-        <h2>Welcome to Our page!</h2>
-        <p>
+        <h2 className="header-two">Welcome to Our page!</h2>
+        <p className="home-para">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
           molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
           numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
@@ -28,7 +28,7 @@ function Home() {
           totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam
           quasi aliquam eligendi, placeat qui corporis!
         </p>
-        <p>
+        <p className="home-para">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
           molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
           numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium

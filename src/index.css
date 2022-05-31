@@ -109,3 +109,11 @@ nav {
   font-size: 1.5rem;
   margin-top: 200px;
 }
+
+.header-two, .home-para {
+  margin-left: 3%;
+}
+
+.home-para {
+  margin-right: 3%;
+}
