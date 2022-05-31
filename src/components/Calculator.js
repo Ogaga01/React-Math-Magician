@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
-import Navbar from './Navbar';
 
 function Calculator() {
   const [state, setState] = useState({
@@ -20,7 +19,6 @@ function Calculator() {
 
   return (
     <>
-      <Navbar />
       <div className="calculator-div">
         <div className="input">{obj.next || obj.total || 0}</div>
         <div className="button-div">
